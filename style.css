@@ -86,9 +86,11 @@ div#content {
 
 .link-box h3 {
 	position: absolute;
-	left: -1em;
+	left: -0.66em;
 	top: -0.33em;
-	right: 1em;
+	right: 0.66em;
+	
+	padding: 0.33em;
 	
 	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 6px 6px;
@@ -105,17 +107,21 @@ div#content {
 
 .link-box p {
 	position: absolute;
-	bottom: 1em;
-	left: 1em;
-	right: 1em;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	
+	padding: 0.5em;
 	
 	z-index: 1;
 	font-size: 1.2em;
 	margin: 0em;
 	color: #FFFFFF;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.66);
+	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 6px 6px;
+	border-top-left-radius: 0px 0px;
+	border-top-right-radius: 0px 0px;
 	text-decoration: none;
 }
 
@@ -180,6 +186,8 @@ p#linkbar {
 	right: 0em;
 	
 	margin: 0em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
 	padding-left: 0.75em;
 	margin-right: 12em;
 	
