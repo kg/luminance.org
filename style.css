@@ -61,6 +61,10 @@ div#content {
 	
 	max-width: 384px;
 	max-height: 384px;
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
 }
 
 .link-box video {
