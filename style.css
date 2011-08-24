@@ -53,7 +53,7 @@ div#content {
 	border-color: #141A19;
 	border-style: solid;
 	border-width: 1px;
-	border-radius: 16px 16px;
+	border-radius: 8px 8px;
 	text-decoration: none;
 
 	width: 22em;
@@ -71,7 +71,7 @@ div#content {
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	border-radius: 16px 16px;
+	border-radius: 8px 8px;
 }
 
 .link-box h3, .link-box img {
@@ -91,7 +91,7 @@ div#content {
 	right: 1em;
 	
 	background-color: rgba(0, 0, 0, 0.8);
-	border-radius: 10px 10px;
+	border-radius: 6px 6px;
 	text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ div#content {
 	color: #FFFFFF;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.66);
-	border-radius: 8px 8px;
+	border-radius: 6px 6px;
 	text-decoration: none;
 }
 
