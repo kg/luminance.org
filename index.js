@@ -1,6 +1,6 @@
 function onLoad () {
   // Older firefox has a ton of bugs that breaks things...
-  if (jQuery.browser.mozilla && (jQuery.browser.version < "2.0")) {
+  if (jQuery.browser.mozilla && (parseFloat(jQuery.browser.version) <= 2.0)) {
     oldFirefoxHack();
   }
   
